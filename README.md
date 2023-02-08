@@ -34,7 +34,7 @@ Future work: Regular updates to the model to keep it current with new informatio
 ###Ethical Sweep
 ##General Questions:
 Should we even be doing this?
-Yes, predicting sporting outcomes does not cause any harm.
+Yes, predicting sporting outcomes does not cause any harm. No harm is done by creating a model to predict the outcome, however, harm may occur when indivudals use this model to gamble on sports betting websites.
 What might be the accuracy of a simple non-ML alternative?
 It really depends on the individual's knowledge of the sport’s world. But typically, one can make decently well predictions of a team’s success, however a lot of bias goes into it based on which team that person supports.
 What processes will we use to handle appeals/mistakes?
@@ -48,6 +48,7 @@ Based on who was collecting the data, they may have favored players they prefer 
 How could we minimize bias in our data and model?
 We can ensure that all players we need are present within the database and we can also use multiple databases to obtain data to ensure consistency. 
 How should we “audit” our code and data?
+We should audit our code and data by checking for missing data, updating our data when necessary, and most importantly, making sure our code and data is transparent and open.
 ##Impact Questions:
 Do we expect different errors rates for different sub-groups in the data?
 There may be more errors towards smaller clubs facing each other due to there not being sufficient data to make an accurate prediction.
