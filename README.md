@@ -1,8 +1,12 @@
 # soccermatchpredictor
 
 Project Name: Soccer Match Predictor
+
 Project Scope: Creating a highly accurate ML model that can predict the outcomes of soccer games using a variety of machine learning methods.
+
 Group Members: Elshiekh, Anna, Yotam, Alan
+
+## Introduction Outline
 
 ### Introductory paragraph
 If you follow soccer, or any sport for that matter, religiously, you’ll quickly realize that the outcomes are as unpredictable as guessing lottery numbers. 
