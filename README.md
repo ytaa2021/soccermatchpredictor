@@ -34,17 +34,18 @@ Future work: Regular updates to the model to keep it current with new informatio
 ###Ethical Sweep
 ##General Questions:
 Should we even be doing this?
-Predicting sporting outcomes does not cause any harm. However, harm may occur when indivudals use this model to gamble on sports betting websites.
+Predicting sporting outcomes does not cause any harm. However, harm may occur when individuals use this model to gamble on sports betting websites.
 What might be the accuracy of a simple non-ML alternative?
-It really depends on the individual's knowledge of the sport’s world. But typically, one can make decently well predictions of a team’s success, however a lot of bias goes into it based on which team that person supports.
+It really depends on the individual's knowledge of the sport’s world. But typically, one can make decently good predictions of a team’s success, however a lot of bias goes into it based on which team that person supports.
 What processes will we use to handle appeals/mistakes?
 We can see if the errors come as a trend in our data, or if it was simply a random and unexpected outcome. If we find a trend, we can tweak our model to that trend’s typical outcome.
 How diverse is our team?
-Although we are only a team of 4, our team is fairly diverse: each member comes from different backgrounds and different understandings of the sport… etc.
+Although we are only a team of 4, our team is fairly diverse: each member comes from different backgrounds and different understandings of the sport.
 ##Data Questions:
 Is our data valid for its intended use?
+Yes -- we will use data that is relevant to a team's performance and a game's outcome.
 What bias could be in our data? (All data contains bias.)
-Based on who was collecting the data, they may have favored players they prefer against those who they do not to make their favorite players shine brighter. They could have also only included the top percentile of players / teams.
+Based on who was collecting the data, they may have favored players they prefer against those who they do not to make their favorite players shine brighter. They could have also only included the top percentile of players / teams. It could also only contain the data points and features that someone has decided are "important," which might not include all the information that would be useful for us.
 How could we minimize bias in our data and model?
 We can ensure that all players we need are present within the database and we can also use multiple databases to obtain data to ensure consistency. 
 How should we “audit” our code and data?
@@ -55,5 +56,5 @@ There may be more errors towards smaller clubs facing each other due to there no
 What are likely misinterpretations of the results and what can be done to prevent those misinterpretations?
 To prevent these misinterpretations as much as possible, we could potentially use a wide variety of databases as well as take that extra step to ensure that each team and its members’ data are sufficient enough to accurately make a sound prediction.
 How might we impinge individuals' privacy and/or anonymity?
-Players’ private lives and their relationships with teammates and coaches definitely plays a role in their overall performance. We may impinge on their privacy by looking too into this factor.
+Players’ private lives and their relationships with teammates and coaches definitely plays a role in their overall performance. We may impinge on their privacy by looking too far into this factor.
 
