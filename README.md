@@ -2,7 +2,7 @@
 
 Project Name: Soccer Match Predictor
 Project Scope: 
-Group Members: Elshiekh, Anna, Yotam
+Group Members: Elshiekh, Anna, Yotam, Alan
 
 ##Introductory paragraph
 If you follow soccer, or any sport for that matter, religiously, you’ll quickly realize that the outcomes are as unpredictable as guessing lottery numbers. 
@@ -11,7 +11,7 @@ Relevance: Interest in sports predictions, and importance of accurate prediction
 Solution: A machine learning model that predicts the outcome of soccer matches based on various factors such as player statistics, team dynamics, and performance in previous matches.
 
 ##Background paragraph
-You can always have a good idea of who might win based on team strength, but even that cannot be trusted at times due to the many other factors that come into play
+You can always have a good idea of who might win based on team strength, but even that cannot be trusted at times due to the many other factors that come into play.
 Difficulty: Inconsistency of players, unpredictable events during and surrounding a match, the dynamic nature of team performance and luck.
 Shortcomings of prior work: Traditional statistical models lack the capability to incorporate various factors, and rely heavily on past performance without considering current conditions.
 Limitations of human intuition: Bias and limited capacity to analyze multiple factors in real-time. 
@@ -34,13 +34,13 @@ Future work: Regular updates to the model to keep it current with new informatio
 ###Ethical Sweep
 ##General Questions:
 Should we even be doing this?
-Yes, predicting sporting outcomes does not cause any harm. No harm is done by creating a model to predict the outcome, however, harm may occur when indivudals use this model to gamble on sports betting websites.
+Predicting sporting outcomes does not cause any harm. However, harm may occur when indivudals use this model to gamble on sports betting websites.
 What might be the accuracy of a simple non-ML alternative?
 It really depends on the individual's knowledge of the sport’s world. But typically, one can make decently well predictions of a team’s success, however a lot of bias goes into it based on which team that person supports.
 What processes will we use to handle appeals/mistakes?
 We can see if the errors come as a trend in our data, or if it was simply a random and unexpected outcome. If we find a trend, we can tweak our model to that trend’s typical outcome.
 How diverse is our team?
-Although we are only a team of 3, our team is fairly diverse: each member comes from different backgrounds and different understandings of the sport… etc.
+Although we are only a team of 4, our team is fairly diverse: each member comes from different backgrounds and different understandings of the sport… etc.
 ##Data Questions:
 Is our data valid for its intended use?
 What bias could be in our data? (All data contains bias.)
